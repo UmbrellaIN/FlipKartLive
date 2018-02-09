@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [ Functional Suite]" parallel="tests">
+  <test thread-count="10" name="VerifyYouTubeFunctionality(failed)" parallel="tests">
+    <classes>
+      <class name="com.umbrella.FlipKartLive.FunctionalTest.VerifyYouTubeFunctionality">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="SkipAddTest"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.umbrella.FlipKartLive.FunctionalTest.VerifyYouTubeFunctionality -->
+    </classes>
+  </test> <!-- VerifyYouTubeFunctionality(failed) -->
+</suite> <!-- Failed suite [ Functional Suite] -->
