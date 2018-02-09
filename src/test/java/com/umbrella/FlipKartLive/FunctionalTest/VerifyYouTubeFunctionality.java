@@ -15,13 +15,13 @@ public class VerifyYouTubeFunctionality extends TestBase {
 
 	private static final Logger log = LoggerHelper.getLogger(VerifyYouTubeFunctionality.class);
 
-
 	@Test
 	public void SkipAddTest() throws InterruptedException
 	{
 		log.info(VerifyYouTubeFunctionality.class.getName() + " Method verifyYouTube " + " Get Started");
 		config = new Config(OR);
 		driver.get(config.getWebsite());
+		log.info("++++++++++++++++++++++Just Checking Project Config++++++++++++++++++++++++++++++++++++++");
 		log.info("++++++++++++++++++++++Just Checking Project Config++++++++++++++++++++++++++++++++++++++");
 
 	}
