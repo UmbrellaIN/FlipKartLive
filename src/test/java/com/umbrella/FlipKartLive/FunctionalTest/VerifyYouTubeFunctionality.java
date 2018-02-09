@@ -23,7 +23,8 @@ public class VerifyYouTubeFunctionality extends TestBase {
 		config = new Config(OR);
 		driver.get(config.getWebsite());
 		log.info("++++++++++++++++++++++Just Checking Project Config++++++++++++++++++++++++++++++++++++++");
-				
+		log.info("++++++++++++++++++++++Just Checking Project Config++++++++++++++++++++++++++++++++++++++");
+
 	}
 
 }
